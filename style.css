@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.card:hover {
+    background-color: #f0f0f0;
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.answer {
+    display: none;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+}
+
+.card:hover .answer {
+    display: block;
+}
