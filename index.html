@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartões de Perguntas e Respostas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin: 10px;
+            padding: 20px;
+            max-width: 300px;
+            text-align: center;
+        }
+        .card h2 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .answer {
+            display: none;
+            margin-top: 10px;
+            font-size: 1em;
+            color: #555;
+        }
+        .card:hover .answer {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Qual é a fórmula da água?</h2>
+        <div class="answer">H<sub>2</sub>O</div>
+    </div>
+    <div class="card">
+        <h2>Quem escreveu "Dom Casmurro"?</h2>
+        <div class="answer">Machado de Assis</div>
+    </div>
+    <div class="card">
+        <h2>Qual é a capital da França?</h2>
+        <div class="answer">Paris</div>
+    </div>
+</body>
+</html>
